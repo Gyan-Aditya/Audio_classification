@@ -41,8 +41,11 @@ streamlit run app.py
 
 ## 🎤 How to Use
 1.Upload an audio file (.wav, .mp3).
+
 2.Model processes the audio and extracts features.
+
 3.The model predicts the sound category and displays the result.
+
 4.Enjoy the animation when a prediction is made! 🎉
 
 ## 📊 Model Training
