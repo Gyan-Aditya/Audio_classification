@@ -72,6 +72,9 @@ Contributions are welcome! Feel free to fork the repo and submit a pull request.
 
 ## 📬 Contact
 -💡 If you have any questions, feel free to reach out:
+
 -✉️ Email: gyanaditya2903@gmail.com
+
 -🐦 Twitter: gyanaditya9
+
 🔗 GitHub: Gyan-Aditya
