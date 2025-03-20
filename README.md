@@ -2,43 +2,42 @@
 This repository contains an audio classification model built using TensorFlow/Keras and Librosa for feature extraction. The model is trained on the UrbanSound8K dataset and deployed using Streamlit.
 
 ## 📌 Features
-🎧 Classifies different environmental sounds (e.g., Dog Bark, Siren, Gunshot).<br>
-📊 Uses MFCC feature extraction for audio processing.<br>
-🧠 Trained using a deep learning model (CNN/MLP).<br>
-🌍 Deployed using Streamlit for a user-friendly web interface.<br>
+-🎧 Classifies different environmental sounds (e.g., Dog Bark, Siren, Gunshot).<br>
+-📊 Uses MFCC feature extraction for audio processing.<br>
+-🧠 Trained using a deep learning model (CNN/MLP).<br>
+-🌍 Deployed using Streamlit for a user-friendly web interface.<br>
 
 ## 📂 Folder Structure
-bash
-CopyEdit
+```bash
 📦 Audio-Classification-Model
 │-- 📁 assets/                # Contains saved model & label mapping
-│-- 📁 data/                  # Dataset folder (if included)
-│-- 📁 notebooks/             # Jupyter notebooks for training & analysis
-│-- 📁 streamlit_app/         # Streamlit frontend files
+│-- 📁 metadata/                  # metadata of dataset
+│-- 📁 images/                  # model-structure, confusion-matrix etc.
+│-- 📁 media/                  # sample of dataset
+│-- 📜 audio_classification.ipynb # Jupyter notebooks for training & analysis
 │-- 📜 app.py                 # Streamlit app script
-│-- 📜 model.py               # Model loading & prediction
-│-- 📜 requirements.txt       # Dependencies
+│-- 📜 requirements.txt       # Dependencie
 │-- 📜 README.md              # Project documentation
-│-- 📜 LICENSE                # License file
+```
 
 ## 🛠 Installation
-🔹 Step 1: Clone the Repository
-bash
-CopyEdit
+🔹 Step 1: Clone the Repository<br>
+```bash
 git clone https://github.com/Gyan-Aditya/Audio-classification.git
 cd audio-classification
+```
 🔹 Step 2: Create a Virtual Environment (Optional but Recommended)
-bash
-CopyEdit
+```bash
 python -m venv envsource env/bin/activate   # For macOS/Linuxenv\Scripts\activate      # For Windows
+```
 🔹 Step 3: Install Dependencies
-bash
-CopyEdit
+```
 pip install -r requirements.txt
+```
 🔹 Step 4: Run the Streamlit App
-bash
-CopyEdit
+```
 streamlit run app.py
+```
 
 ## 🎤 How to Use
 1.Upload an audio file (.wav, .mp3).
@@ -47,17 +46,17 @@ streamlit run app.py
 4.Enjoy the animation when a prediction is made! 🎉
 
 ## 📊 Model Training
-Dataset: UrbanSound8K
-Features: MFCC (Mel-Frequency Cepstral Coefficients)
-Model: CNN/MLP using TensorFlow/Keras
-Optimizer: Adam
-Loss Function: Categorical Crossentropy
-Accuracy: 75% on validation set
+-Dataset: UrbanSound8K
+-Features: MFCC (Mel-Frequency Cepstral Coefficients)
+-Model: CNN/MLP using TensorFlow/Keras
+-Optimizer: Adam
+-Loss Function: Categorical Crossentropy
+-Accuracy: 75% on validation set
 
 
 ## 📌 Example Prediction
-Uploaded Audio: dog_bark.wav
-🎤 Predicted Class: Dog Bark ✅
+-Uploaded Audio: dog_bark.wav
+-🎤 Predicted Class: Dog Bark ✅
 
 
 ## 📷 Screenshots
@@ -72,7 +71,7 @@ Uploaded Audio: dog_bark.wav
 Contributions are welcome! Feel free to fork the repo and submit a pull request.
 
 ## 📬 Contact
-💡 If you have any questions, feel free to reach out:
-✉️ Email: gyanaditya2903@gmail.com
-🐦 Twitter: gyanaditya9
+-💡 If you have any questions, feel free to reach out:
+-✉️ Email: gyanaditya2903@gmail.com
+-🐦 Twitter: gyanaditya9
 🔗 GitHub: Gyan-Aditya
