@@ -56,6 +56,7 @@ streamlit run app.py
 
 ## 📌 Example Prediction
 -Uploaded Audio: dog_bark.wav
+
 -🎤 Predicted Class: Dog Bark ✅
 
 
