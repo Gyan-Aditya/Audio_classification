@@ -26,7 +26,7 @@ Edit
 bash
 Copy
 Edit
-git clone https://github.com/your-username/audio-classification.git
+git clone https://github.com/Gyan-Aditya/Audio_classification.git
 cd audio-classification
 🔹 Step 2: Create a Virtual Environment (Optional but Recommended)
 bash
