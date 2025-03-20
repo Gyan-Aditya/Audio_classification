@@ -2,10 +2,10 @@
 This repository contains an audio classification model built using TensorFlow/Keras and Librosa for feature extraction. The model is trained on the UrbanSound8K dataset and deployed using Streamlit.
 
 ## 📌 Features
-🎧 Classifies different environmental sounds (e.g., Dog Bark, Siren, Gunshot).
-📊 Uses MFCC feature extraction for audio processing.
-🧠 Trained using a deep learning model (CNN/MLP).
-🌍 Deployed using Streamlit for a user-friendly web interface.
+🎧 Classifies different environmental sounds (e.g., Dog Bark, Siren, Gunshot).<br>
+📊 Uses MFCC feature extraction for audio processing.<br>
+🧠 Trained using a deep learning model (CNN/MLP).<br>
+🌍 Deployed using Streamlit for a user-friendly web interface.<br>
 
 ## 📂 Folder Structure
 bash
