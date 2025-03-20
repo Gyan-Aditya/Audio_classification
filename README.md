@@ -1,13 +1,13 @@
-Audio Classification using Machine Learning
+# 🎵Audio Classification using Machine Learning
 This repository contains an audio classification model built using TensorFlow/Keras and Librosa for feature extraction. The model is trained on the UrbanSound8K dataset and deployed using Streamlit.
 
-📌 Features
+## 📌 Features
 🎧 Classifies different environmental sounds (e.g., Dog Bark, Siren, Gunshot).
 📊 Uses MFCC feature extraction for audio processing.
 🧠 Trained using a deep learning model (CNN/MLP).
 🌍 Deployed using Streamlit for a user-friendly web interface.
 
-📂 Folder Structure
+## 📂 Folder Structure
 bash
 CopyEdit
 📦 Audio-Classification-Model
@@ -21,7 +21,7 @@ CopyEdit
 │-- 📜 README.md              # Project documentation
 │-- 📜 LICENSE                # License file
 
-🛠 Installation
+## 🛠 Installation
 🔹 Step 1: Clone the Repository
 bash
 CopyEdit
@@ -40,13 +40,13 @@ bash
 CopyEdit
 streamlit run app.py
 
-🎤 How to Use
+## 🎤 How to Use
 1.Upload an audio file (.wav, .mp3).
 2.Model processes the audio and extracts features.
 3.The model predicts the sound category and displays the result.
 4.Enjoy the animation when a prediction is made! 🎉
 
-📊 Model Training
+## 📊 Model Training
 Dataset: UrbanSound8K
 Features: MFCC (Mel-Frequency Cepstral Coefficients)
 Model: CNN/MLP using TensorFlow/Keras
@@ -55,23 +55,23 @@ streamlit run app.py
 Accuracy: 75% on validation set
 
 
-📌 Example Prediction
+## 📌 Example Prediction
 Uploaded Audio: dog_bark.wav
 🎤 Predicted Class: Dog Bark ✅
 
 
-📷 Screenshots
-Uploading Audio	Prediction
+## 📷 Screenshots
+**Uploading Audio	Prediction**
 ![Screenshot 2025-03-21 003229](https://github.com/user-attachments/assets/c0198a25-0277-4050-8cc9-501a524ddad0)
-Prediction
+**Prediction**
 ![Screenshot 2025-03-21 003307](https://github.com/user-attachments/assets/c4376be2-81c7-48b2-a214-8bd8945d1578)
 
 
 
-🤝 Contributing
+## 🤝 Contributing
 Contributions are welcome! Feel free to fork the repo and submit a pull request.
 
-📬 Contact
+## 📬 Contact
 💡 If you have any questions, feel free to reach out:
 ✉️ Email: gyanaditya2903@gmail.com
 🐦 Twitter: gyanaditya9
