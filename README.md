@@ -4,7 +4,7 @@ This repository contains an audio classification model built using TensorFlow/Ke
 ##  Features
 - Classifies different environmental sounds (e.g., Dog Bark, Siren, Gunshot).<br>
 - Uses MFCC feature extraction for audio processing.<br>
-- Trained using a deep learning model (CNN/MLP).<br>
+- Trained using a deep learning model (ANN).<br>
 - Deployed using Streamlit for a user-friendly web interface.<br>
 
 ## 📂 Folder Structure
