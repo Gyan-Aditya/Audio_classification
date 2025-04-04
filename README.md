@@ -69,8 +69,8 @@ streamlit run app.py
 **Prediction**
 ![Screenshot 2025-03-27 003440](https://github.com/user-attachments/assets/424960d1-172b-4e7a-ad02-8c452d34dd13)
 
-
-
+## License
+This project is licensed under the MIT License. See the [MIT License](LICENSE) file for details.
 
 ## Contributing
 Contributions are welcome! Feel free to fork the repo and submit a pull request.
