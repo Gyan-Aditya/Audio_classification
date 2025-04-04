@@ -49,16 +49,16 @@ streamlit run app.py
 4.Enjoy the animation when a prediction is made! 🎉
 
 ## Model Training
--Dataset: UrbanSound8K
--Features: MFCC (Mel-Frequency Cepstral Coefficients)
--Model: CNN/MLP using TensorFlow/Keras
--Optimizer: Adam
--Loss Function: Categorical Crossentropy
--Accuracy: 75% on validation set
+- Dataset: UrbanSound8K
+- Features: MFCC (Mel-Frequency Cepstral Coefficients)
+- Model: CNN/MLP using TensorFlow/Keras
+- Optimizer: Adam
+- Loss Function: Categorical Crossentropy
+- Accuracy: 75% on validation set
 
 
 ## Example Prediction
--Uploaded Audio: 24364-4-0-2.wav
+- Uploaded Audio: 24364-4-0-2.wav
 
 - Predicted Class: Drilling ✅
 
